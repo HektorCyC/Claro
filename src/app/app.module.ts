@@ -16,6 +16,8 @@ import { BodyComponent } from './body/body.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 
 import { environment } from '../environments/environment';
+import { ShoppingCartModule } from 'ng-shopping-cart'; // <-- Module for shopping cart
+
 
 @NgModule({
   declarations: [
