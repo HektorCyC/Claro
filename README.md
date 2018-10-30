@@ -1,27 +1,21 @@
-# Claroshop
+# Claroshop Prueba
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+Proyecto de prueba para Claro
 
-## Development server
+## Instrucciones de uso
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Correr `ng serve` para iniciar el servidor de desarollo. Dirigirse a la dirección `http://localhost:4200/` en el navegador. 
 
-## Code scaffolding
+## Explicación del repositorio
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Se tomo como base el css de Claroshop.com y se integraron las siguientes funciones:
 
-## Build
+1.- Google Firebase Real time databse <-- Para experiencia en tiempo real con la base de datos y el usuario
+2.- Autenticación Oauth funcional con Google y Facebook
+3.- Carrito de compras funcional integración con Paypal
+4.- Implementación de bootstrap, sitio responsivo.
+5.- Deployment a Google Firebase Hosting.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Demo
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://claroshop-ed374.firebaseapp.com/
