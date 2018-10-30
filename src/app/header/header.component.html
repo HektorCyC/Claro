@@ -1,0 +1,98 @@
+<header>
+    <div class="header__middle">
+        <div class="container">
+            <a href="/" title="Ir a la Página principal de Claroshop" class="header__logo"></a>
+<div class="container"><div class="desktopMenu">
+</div>
+<div class="search">
+    <section class="navbar-form navbar-left hpadding0 hmargecontenidozul">
+        <div class="contSearch suggestSearch">
+            <div class="input2">
+                <input type="search" placeholder="¿Qué es lo que buscas?" name="search" id="search">
+                <button type="button" class="bt__search"></button>
+            </div>
+        </div>
+    </section>
+</div>
+<nav class="menuPrincipal menuAnim">
+    <ul>
+        <li class="login"><a href="#" id="userInformation" *ngIf="auth.user | async; then authenticated else guest"></a>
+        <!-- user login validation -->
+        <ng-template #guest>
+        <a href="#" id="userInformation"><span>Bienvenido</span>Regístrate</a>
+            <div class="box__login" id="box__login">
+                <dl class="logIn">
+                    <dt><a class="redBtn btn-login" href="#" (click)="auth.googleLogin()">Ingresar con Google</a>
+                    </dt>
+                    <dt><a class="blueBtn btn-login" href="#" (click)="auth.facebookLogin()">Ingresar con Facebook</a>
+                    </dt>
+                    <dd>
+                        <p>¿Eres Nuevo?</p><a class="standardBtn btn-registro" href="/loginregistro?redirect=https://www.claroshop.com/">Regístrate</a>
+                    </dd></dl>
+                </div>
+            </ng-template>
+            <!-- User logged in -->
+            <ng-template #authenticated>
+    <div *ngIf="auth.user | async as user">
+        <a href="#" id="userInformation"><span>Bienvenido</span>{{ user.displayName }}</a>
+            <div class="box__login" id="box__login">
+                <dl class="logIn">
+                    <dt><a class="" href="#">Ir a mi cuenta</a>
+                    </dt>
+                    <dd>
+                        <p>¿No eres {{ user.displayName }}?</p><a class="standardBtn btn-registro" href="#" (click)="auth.signOut()">Salir</a>
+                    </dd></dl>
+                </div>
+        </div>
+            </ng-template>
+        <!-- ends -->
+                </li>
+            <li class="wishlist notification" id="wishlist_snippet" style="display: flex;"><span class="push">3</span><a href="/mi-cuenta/listadeseos"><span>Lista de</span> Deseos</a><input type="hidden" id="idsProducto" name="idsProducto"></li>
+            <li class="cart notification cartPreview" id="cantidadProductos"><span class="push" id="cart_count">5</span><a href="#"><span>Ingresar</span> Carrito</a>
+                <div class="box__carrito"><h3>Mi Carrito</h3>
+                <div class="boxCarritoCont">
+                    <article class="caja__product">
+                    <div class="fila_producto">
+                        <div class="bcp_producto">
+                            <div class="contImg"></div>
+                            <div class="contInfo"><a href="#"><p class="producto" id="carrtPrewTitle">Aún no tienes productos en tu carrito.</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+    </div>
+</li>
+</ul>
+</nav>
+    </div>
+            </div>
+        </div>
+
+<div class="header__inferior">
+    <div class="container">
+        <nav class="productosHead">
+        <ul>
+         <li class="productosNewCat hide"><a href="/l/categorias/">Ver Categorías</a>
+
+</li>
+</ul>
+</nav>
+<nav class="promoHeader">
+    <ul>
+        <li class="alone"><a href="/ofertas/">Fotografía</a>
+    </li>
+    <li class="alone"><a href="/Tienda/10345/amigo-kit-telcel/">Ofertas</a>
+    </li>
+    <li class="alone"><a href="/Tienda/10139/1-gadgets/">Celulares</a>
+    </li>
+    <li class="alone"><a href="/categoria/21827/videojuegos/">Gamers</a>
+    </li>
+</ul>
+</nav>
+<nav class="menuTiendas noSubMenu">
+    <ul>
+        <li class="tiendas" style="width: 50%;"><a href="/tiendas">Tiendas</a></li>
+        <li class="mall" style="width: 50%;"><a href="#">Servicios</a></li>
+    </ul>
+</nav></div></div></header>

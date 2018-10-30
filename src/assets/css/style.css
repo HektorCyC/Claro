@@ -1,0 +1,273 @@
+.section_padding_100_50 {
+    padding-top: 100px;
+    padding-bottom: 50px
+}
+
+.section_padding_0_50 {
+    padding-top: 0;
+    padding-bottom: 50px
+}
+
+.welcome_area {
+    background-color: #fff;
+    height: 700px;
+}
+
+.single_demo_area {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    z-index: auto;
+}
+
+.single_demo_area:hover {
+    -webkit-transform: translateY(-1em);
+    transform: translateY(-1em)
+}
+
+.single_demo_text {
+    position: relative;
+    z-index: 99
+}
+
+.single_demo_text > h4 {
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer_area {
+    background-color: #151515;
+    padding: 50px 0;
+}
+
+.preview_cta_area {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.preview_cta_text > h4 {
+    color: #2c3e50;
+    margin: 0
+}
+
+.portfolio-menu,
+.portfolio-menu-2 {
+    margin-bottom: 50px
+}
+
+.preview_cta_text {
+    text-align: center
+}
+
+.why_love_one {
+    background-color: #f6f6f6;
+    padding: 100px 0 70px;
+    text-align: center;
+}
+
+.section_title > h3 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.section_title {
+    margin-bottom: 50px;
+}
+
+.section_heading > h3 span {
+    color: #009688;
+}
+
+.single_why_love_area p {
+    margin: 0
+}
+
+.single_why_love_text h4 i {
+    color: #009688;
+}
+
+.preview_cta_area.purchase {
+    background-color: #009688;
+}
+
+.purchase .preview_cta_text > h4 {
+    color: #fff;
+    display: inline-block;
+    padding-top: 6px;
+}
+
+.welcome_text h2 {
+    font-size: 34px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.single_why_love_text > h4 {
+    font-size: 18px;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+}
+
+.single_why_love_text {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    padding: 30px 15px;
+}
+
+.single_why_love_text img {
+    margin-bottom: 20px;
+    height: 60px;
+    width: auto !important;
+}
+
+.single_why_love_text p {
+    margin-bottom: 0;
+    color: #3a3a3a;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.demo_section_heading > h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.welcome_text > p {
+    margin: 0 auto 30px;
+    max-width: 480px;
+}
+
+#btn-1 {
+    margin-right: 15px;
+}
+
+.demo_section_navigation {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.demo_section_navigation li {
+    display: inline-block;
+}
+
+.demo_section_navigation a {
+    background-color: #ff9800;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 16px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.demo_section_navigation a:hover {
+    background-color: #fff;
+    border-radius: 6px;
+    color: #888;
+}
+
+.demo_page_title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section_heading > span {
+    border-radius: 0;
+    color: #009688;
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.homepage_demo {
+    padding: 100px 5% 50px;
+}
+
+.demo_section_heading {
+    margin-bottom: 50px;
+}
+
+.demo_slides_content {
+    border: 5px solid #ddd;
+    border-radius: 3px;
+}
+
+.header_slides,
+.page_content_slides {
+    border-bottom: 5px solid #ddd;
+}
+
+.demo_slides_area .owl-nav {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.demo_slides_area .owl-prev,
+.demo_slides_area .owl-next {
+    background-color: #009688;
+    border-radius: 50%;
+    color: #fff;
+    height: 30px;
+    left: -45px;
+    margin-top: -15px;
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    z-index: 9;
+    text-align: center;
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+}
+
+.demo_slides_area .owl-prev:hover,
+.demo_slides_area .owl-next:hover {
+    background-color: #00BCD4;
+}
+
+.demo_slides_area .owl-next {
+    left: auto;
+    right: -45px;
+}
+
+.demo_slides_area .owl-prev i,
+.demo_slides_area .owl-next i {
+    line-height: 30px;
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .welcome_text h2 {
+        font-size: 24px;
+    }
+    .purchase .preview_cta_text > h4 {
+        margin-bottom: 20px;
+    }
+    .see_buy_btn a {
+        margin: 5px;
+    }
+    #btn-1 {
+        margin-right: 0;
+    }
+    .demo_section_heading > h3 {
+        font-size: 20px;
+    }
+}
