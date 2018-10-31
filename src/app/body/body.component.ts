@@ -1,4 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { AuthService } from '../core/auth.service';
 
 @Component({
   selector: 'app-body',
@@ -14,10 +15,8 @@ export class BodyComponent  {
     this.cartCountEvent.emit(this.cartCount);
     console.log(this.cartCountEvent.emit('Perritos'))
   }
-   /*
-    
-   constructor(){}
-
+  constructor(public auth: AuthService){}
+ /*
     sendCount (){
       var update = this.cartCountEvent.emit(this.cartCount);
       console.log(update)

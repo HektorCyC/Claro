@@ -1,6 +1,10 @@
 <div class="mod_contentMiCuenta">
 		<div class="items"><h2>Bienvenido a la tienda!</h2>
-
+		<div *ngIf="auth.user | async; then authenticated else guest"></div>
+		<ng-template #guest>
+		<h2>Para poder comprar por favor inicia sesión</h2> 
+			</ng-template>
+			<ng-template #authenticated>
 			<h2 class="text-center">Productos</h2>
 								<div class="section">
 									<div class="products">
@@ -54,5 +58,6 @@
 													</div>
 									</div>
 							</div>
+						</ng-template>
 		</div>
 	</div>
